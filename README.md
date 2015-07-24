@@ -1,5 +1,7 @@
 # UIkit
 
+[![Join the chat at https://gitter.im/DerekTBrown/MeteorKit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DerekTBrown/MeteorKit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.
 
 * [Homepage](http://getuikit.com) - Learn more about UIkit

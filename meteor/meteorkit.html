@@ -1,0 +1,40 @@
+<!-- Meteorkit: UIKit for Meteor
+     meteorkit.html - Blaze Templates
+     Released under the GPLv3 License
+-->
+  <!-- UTILITY -->
+    <template name="uk_component">
+      {{> UI.contentBlock}}
+    </template>
+
+  <!-- CORE -->
+    <!-- Grid -->
+
+    <!-- Panel -->
+      <template name="uk_panel">
+        <div class="uk-panel">
+          {{#if this.teaser}}
+          <div class="uk-panel-teaser">
+              <img src="{{this.teaser}}" alt="">
+          </div>
+          {{/if}}
+          {{#if this.badge}}
+            <h3 class="uk-panel-badge uk-badge">{{this.badge}}</h3>
+          {{/if}}
+          {{#if this.title}}
+            <h3 class="uk-panel-title">
+              {{#if this.icon}}
+                <i class="uk-icon-{{this.icon}}"></i>
+              {{/if}}
+              {{this.title}}
+            </h3>
+          {{/if}}
+          {{> UI.contentBlock}}
+        </div>
+      </template>
+
+    <!-- Block -->
+
+    <!-- Article -->
+
+  <!-- COMPONENTS -->
